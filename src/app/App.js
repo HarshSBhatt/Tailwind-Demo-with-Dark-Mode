@@ -1,5 +1,5 @@
 import Toggle from "components/Toggle";
-import useDarkMode from "common/hooks/useCustomDarkMode";
+import useDarkMode from "common/hooks/useDarkMode";
 
 function App() {
   const [value, theme, setTheme] = useDarkMode();
